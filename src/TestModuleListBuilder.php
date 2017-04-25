@@ -2,7 +2,6 @@
 
 namespace Drupal\test_module;
 
-use Drupal\Component\Utility\SafeMarkup;
 use Drupal\Core\Config\Entity\DraggableListBuilder;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Form\FormStateInterface;
