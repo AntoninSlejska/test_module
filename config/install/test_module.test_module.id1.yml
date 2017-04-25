@@ -1,4 +1,4 @@
 id: 1
-label: Some label
+label: 'Some label'
 number: 1
-string: Some string
+string: 'Some string'
