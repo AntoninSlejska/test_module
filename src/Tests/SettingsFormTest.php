@@ -82,7 +82,7 @@ class SettingsFormTest extends WebTestBase {
     $this->drupalGet('admin/config/test_module');
     $this->assertResponse(200);
     $this->assertText(
-      'Test Module',
+      'Test module',
       'Correct title is shown.'
     );
   }
