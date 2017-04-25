@@ -1,0 +1,6 @@
+name: Test Module
+type: module
+description: 'Tests the entity config import'
+core: 8.x
+package: Other
+dependencies:

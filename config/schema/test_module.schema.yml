@@ -1,0 +1,16 @@
+test_module.test_module.*:
+  type: config_entity
+  label: 'Test Module'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    number:
+      type: integer
+      label: 'Number'
+    string:
+      type: string
+      label: 'String'

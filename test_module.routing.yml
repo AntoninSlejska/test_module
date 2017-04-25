@@ -1,0 +1,32 @@
+test_module.test_module_list:
+  path: '/admin/config/test_module'
+  defaults:
+    # Must be the same as our config entity type id.
+    _entity_list: 'test_module'
+    _title: 'Test module'
+  requirements:
+    _permission: 'administer site configuration'
+
+test_module.test_module_add:
+  path: '/admin/config/test_module/add'
+  defaults:
+    _entity_form: test_module.default
+    _title: 'Add entity'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.test_module.edit_form:
+  path: '/admin/config/test_module/manage/{test_module}'
+  defaults:
+    _entity_form: test_module.default
+    _title: 'Edit entity'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.test_module.delete_form:
+  path: '/admin/config/test_module/manage/{test_module}/delete'
+  defaults:
+    _entity_form: test_module.delete
+    _title: 'Delete entity'
+  requirements:
+    _permission: 'administer site configuration'
