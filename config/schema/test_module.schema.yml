@@ -3,7 +3,7 @@ test_module.test_module.*:
   label: 'Test Module'
   mapping:
     id:
-      type: string
+      type: integer
       label: 'ID'
     label:
       type: label
