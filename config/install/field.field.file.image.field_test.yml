@@ -1,6 +1,8 @@
-langcode: de
 status: true
 dependencies:
+  enforced:
+    module:
+      - file_entity
   config:
     - field.storage.file.field_test
     - file_entity.type.image
@@ -8,11 +10,11 @@ id: file.image.field_test
 field_name: field_test
 entity_type: file
 bundle: image
-label: Titel
-description: ''
+label: 'Test field'
+description: 'Field for testing purposes.'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
-default_value_callback: ''
+default_value_function: ''
 settings: {  }
 field_type: string

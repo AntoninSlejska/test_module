@@ -18,15 +18,6 @@ class SettingsFormTest extends WebTestBase {
    * @var array
    */
   public static $modules = array(
-    'file',
-    'field',
-    'text',
-    'filter',
-    'user',
-    'system',
-    'views',
-    'image',
-    'token',
     'file_entity',
     'test_module',
   );
