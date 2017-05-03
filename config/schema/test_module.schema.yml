@@ -14,3 +14,6 @@ test_module.test_module.*:
     string:
       type: string
       label: 'String'
+    field:
+      type: integer
+      label: 'Field for testing the influence of type on failing of tests'
