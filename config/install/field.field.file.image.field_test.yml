@@ -1,0 +1,18 @@
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.file.field_test
+    - file_entity.type.image
+id: file.image.field_test
+field_name: field_test
+entity_type: file
+bundle: image
+label: Titel
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
